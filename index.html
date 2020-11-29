@@ -7,16 +7,43 @@
       html, body {
         height: 100%;
         display: flex;
+        flex-direction: column;
         justify-content: center;
-        writing-mode: vertical-lr;
-      }
-      h1 {
+        align-items: center;
+        margin: 0;
         font-family: monospace;
-        margin: 0 0 0 32px;
+      }
+      h1, h2 {
+        margin: 0 0 16px 0;
+      }
+      p {
+        margin-bottom: 16px; 
+      }
+      a {
+        margin-right: 16px;
+        text-decoration: none;
+      }
+      a:last-child {
+        margin: 0;
+      }
+      img {
+        width: 32px;
       }
     </style>
   </head>
   <body>
-    <h1>berggren.dev</h1>
+    <p>
+      <a href="https://github.com/thesauri">
+        <img src="icons/github.svg" alt="GitHub" />
+      </a>
+      <a href="https://twitter.com/walter_berggren">
+        <img src="icons/twitter.svg" alt="Twitter" />
+      </a>
+      <a href="https://www.linkedin.com/in/walter-berggren/">
+        <img src="icons/linkedin.svg" alt="LinkedIn" />
+      </a>
+    </p>
+    <h1>Walter Berggren</h1>
+    <h2>@thesauri</h2>
   </body>
 </html>
